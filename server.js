@@ -95,7 +95,7 @@ app.get("/resumes", (req, res) => {
 });
 
 // ✅ Start Server (Local + Koyeb)
-const PORT = process.env.PORT ||80;
+const PORT = process.env.PORT ||8000;
 app.listen(PORT, () => {
     console.log(`✅ Server running on port ${PORT}`);
 });
